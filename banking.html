@@ -13,9 +13,11 @@
             Let's get some <span class="font-semibold text-purple-600"> Money! </span>
         </h1>
     </header>
-    <main>
+    <main class="w-3/4 mx-auto">
+
+        <!-- Balance and transection -->
         <section class="mt-12">
-            <div class="grid grid-cols-3 gap-4 w-3/4 mx-auto text-white">
+            <div class="grid grid-cols-3 gap-4 text-white">
                 <div class="bg-blue-300 p-8 rounded">
                     <h3 class="text-2xl">
                         Deposit
@@ -44,6 +46,39 @@
                 </div>
             </div>
         </section>
+
+        <!-- Deposite and withdraw -->
+        <section class="mt-8">
+            <div class="grid grid-cols-2 gap-4">
+                <div class="bg-red-100 p-8 rounded">
+                    <h3 class="text-2xl">
+                        PLease Deposite
+                    </h3>
+                    <div action="">
+                        <input type="text" id="deposite-amount" class="border-2 block mx-auto w-3/4 px-2 mb-4 rounded border-grey-400" placeholder="$ amount you want to deposit">
+                        <button id="login-submit" class="bg-yellow-600 ml-32 px-4 rounded py-2 text-white font-medium">
+                            Deposite
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-2 gap-4">
+                <div class="bg-red-100 p-8 rounded">
+                    <h3 class="text-2xl">
+                        PLease Withdraw 
+                    </h3>
+                    <div action="">
+                        <input type="text" id="withdraw-amount" class="border-2 block mx-auto w-3/4 px-2 mb-4 rounded border-grey-400" placeholder="$ amount you want to withdraw">
+                        <button id="login-submit" class="bg-yellow-600 ml-32 px-4 rounded py-2 text-white font-medium">
+                            Withdraw
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
     </main>
 
 </body>
