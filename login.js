@@ -1,3 +1,4 @@
+
 document.getElementById('login-submit').addEventListener('click', function() {
     // get user email
     const emailField = document.getElementById('user-email')
@@ -12,3 +13,5 @@ document.getElementById('login-submit').addEventListener('click', function() {
         window.location.href='banking.html'
     }
 })
+
+
